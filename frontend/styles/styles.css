@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ff6f00; /* Arancione */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Login Container */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00bcd4; /* Ciano */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-container input {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.login-container button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #00bcd4; /* Ciano */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #008c9e; /* Ciano scuro */
+}
+
+.login-container .error {
+    color: #ff6f00; /* Arancione */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Courses Container */
+#courses-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00bcd4; /* Ciano */
+}
+
+.course {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.course:last-child {
+    border-bottom: none;
+}
+
+.course .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6f00; /* Arancione */
+}
+
+/* Buttons */
+button {
+    background-color: #ff6f00; /* Arancione */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65c00; /* Arancione scuro */
+}
